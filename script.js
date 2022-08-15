@@ -44,11 +44,13 @@
     amigos:["Roberta", "Malu"]},
    ]
 
-   console.log(info)
-
-
 //Na propriedade amigos, adicione ao menos 4 itens.
 
 
 // Mostre no console o nome de um amigo de cada lista.
+
+info.map((info)=>{
+    console.log('amigo de ',info.nome,'o amigo', info.amigos[0])
+})
+
 
